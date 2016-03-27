@@ -13,8 +13,9 @@ Minecraft Bukkit 击杀计数器插件
 1. `/startcount [player] [ALL|name] [msg]`
    - 权限: **soulcounter.startcount**
    - 例子: `/startcount iovxw ZOMBIE 僵尸击杀数量: %NUM%`
-   - 开始玩家 iovxw 的计数, msg 中的 `%NUM%` 将会被替换为当前击杀数量
+   - 开始玩家 iovxw 击杀僵尸的计数, msg 中的 `%NUM%` 将会被替换为当前击杀数量
    - 想要统计全部生物的击杀请将例子中的 `ZOMBIE` 替换为 `ALL`
+   - 生物名字列表请参考: [这里](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html)
 2. `/stopcount [player]`
    - 权限: **soulcounter.stopcount**
    - 例子: `/stopcount iovxw`
