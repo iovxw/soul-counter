@@ -23,6 +23,6 @@ Minecraft Bukkit 击杀计数器插件
 
 ## License
 
-Copyright (c) 2015 iovxw
+Copyright (c) 2016 iovxw
 
 The MIT License (MIT)
