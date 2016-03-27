@@ -1,0 +1,14 @@
+name: SoulCounter
+main: soul_counter.core
+depend: [cljminecraft]
+version: 1.0.0
+author: iovxw
+commands:
+    startcount:
+        description: Start
+        usage: /startcount [player] [ALL|name] [msg]
+        permission: soulcounter.startcount
+    stopcount:
+        description: Stop
+        usage: /stopcount [player]
+        permission: soulcounter.stopcount
